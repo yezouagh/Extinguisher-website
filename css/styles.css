@@ -1,0 +1,32 @@
+
+ .content {
+	font-size: 1.1em;
+	line-height: 1.8em;
+	}
+	
+.content p {
+	font-size: 1.0em;
+	line-height: 1.8em;
+	margin-bottom: 1.1em;
+	}
+	
+/***** BODY *****/
+	
+.page-title {
+	padding: 30px 0 30px 0;
+	}
+	
+.arrow-top img {
+	margin: -7px 0 0 15px;
+	}
+
+	
+/***** CONTACT *****/
+
+#contact-form {
+	border-left: 1px solid #cccccc;
+	}
+	
+#contact-info {
+	padding-bottom:20px;
+	}

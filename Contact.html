@@ -1,0 +1,248 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="shortcut icon" href="images/ic.ico">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Extincteur Al Khair</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/mystyle.css" />
+<script type="text/javascript" src="http://static.tumblr.com/ikeq9mi/DfYl6o46t/scrolltotop.min.js"></script>
+<a href="javascript:;" id="scrollToTop" rel="nofollow" title="Go to Top"><img src="images/top.png" title="Go to Top" alt="Go to Top"/></a>
+<style>
+@import url(http://fonts.googleapis.com/css?family=Allura);
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+.container2{
+  padding:0;
+  margin: 0 auto;
+  width: 140px;
+ }
+.ribbon{
+  float: left;
+  @include appearance(none);
+  @include border-radius(5px 5px 0px 0px);
+  @include transition(all 0.2s ease);
+  cursor: pointer;
+  border: none;
+  background: blue;
+  width: 40px;
+  height: 80px;
+  position: relative;
+  color: white;
+  padding: 2px;
+  margin-right: -2px;
+  -webkit-filter: drop-shadow(0 1px 10px rgba(0,0,0,.5));
+		-moz-filter: drop-shadow(0 1px 10px rgba(0,0,0,.5));
+		-ms-filter: drop-shadow(0 1px 10px rgba(0,0,0,.5));
+		-o-filter: drop-shadow(0 1px 10px rgba(0,0,0,.5));
+		filter: drop-shadow(0 1px 10px rgba(0,0,0,.5));
+&:hover{
+  margin-top: 2px;
+  color:white;
+}
+span{
+line-height: 2px;
+font-size: 5em;
+  }
+&::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0; 
+  	height: 0; 
+  	border-top: 10px solid blue; 
+  	border-right: 100px solid transparent;
+ }
+&::after{
+    content: '';
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 0; 
+  	height: 0; 
+  	border-top: 10px solid blue; 
+  	border-left: 30px solid transparent;
+ }
+}
+.facebook{
+  margin-top: 1px;
+  background: #3b5998;
+  color: darken(#3b5998, 20%);
+  &::after{border-top-color: #3b5998}
+  &::before{border-top-color: #3b5998}
+  }
+.googleplus{
+  z-index: 999;
+  background:#c4302b;
+  color: darken(#c4302b, 20%);
+  &::after{border-top-color: #c4302b}
+  &::before{border-top-color: #c4302b}
+  }
+.twitter{
+  margin-top: 1px;
+  background: #00a0d1;
+  color: darken(#00a0d1, 20%);
+  &::after{border-top-color: #00a0d1}
+  &::before{border-top-color: #00a0d1}
+  }
+</style>
+<script>
+$(document).ready(function() {
+var imgwidth=$('#ref img').width();
+var count=7;
+var pos=0-imgwidth*count;
+var left=pos;
+ loop=function()
+{
+if(left==$('#ref').width())
+{
+	left=pos;
+}
+	$('#ref img').animate({left:left++},10,function(){
+	 	loop();
+	 });
+}
+loop();
+});
+</script>
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="header">  
+  </div>	
+  <div align="center">
+  <ul style="display: inline-block;">
+  <li><a class="menuItem active"  href="index.php">Acceuil</a></li>
+  <li><a class="menuItem"  style="padding-left: 20px;padding-right: 20px;"  href="Extincteurs.php">Extincteurs</a></li>
+  <li  style=""><a class="menuItem"  href="sysalarm.php" style="padding-left: 22px;padding-right: 22px;">Sys.Alarm</a></li>
+  <li><a class="menuItem"  href="Agents.html">Agents</a></li>
+   <li><a class="menuItem"  href="Entretien.html">Entretien</a></li>
+  <li style="margin-right: 0px;"><a class="menuItem"   href="#">Contact</a></li>
+  </ul>
+  </div>
+  <div style="margin-top: 2px;" class="bar"><img src="images/autre.png" width="100%" height="20" /> </div>
+  <div class="content" >
+     <div id="doc">
+       <div id="content">
+<h6 class="trouverNous">Trouver Nous,</h6>
+<div class="grid_12">
+<div class="map">
+<figure class="">
+<div class="rain" >
+<div class="border start">
+<iframe style=" width: 100%; height: 350px;max-width: 100%;"src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB92vjS_YLZGyTYcpB0JRS2W7FzVjPb-zU&q=Avenue+Ben+Aajiba,Tanger,Morocco"></iframe>
+</div>
+</div>
+</figure>
+</div>
+</div>
+  </div>
+  
+   <div class="row-fluid" id="contact">
+    <h6 class="page-title trouverNous"> Contacter Nous,</h6>
+    <!-- CONTACT INFO -->
+    <div class="span4" id="contact-info">
+      <h3>Extincteur Al khair.</h3>
+	  <br/>
+			<p class="adr"><b><span>Adresse&nbsp;:&nbsp;</span></b> Route de Tétouan Mghogha Kbira
+			   Av.Ben Aajiba Tanger.</p>
+			   <p class="adr"><b><span>Tél 1&nbsp;:&nbsp;</span></b>0539954150.</p>
+			     <p class="adr"><b><span>Tél 2&nbsp;:&nbsp;</span></b>0661718022.</p>
+				   <p class="adr"><b><span>Tél 3&nbsp;:&nbsp;</span></b>0638597097.</p>
+     <p class="adr" style="margin-bottom: 15px;"><b><span>Email&nbsp;:&nbsp;</span></b> <a style="color: #5786fe;" target="_blank" href="#"> extincteurs.alkhair@gmail.com</a>
+    </p>
+<div class="container2">
+ <a target="_blank" href="http://www.facebook.com"> <button  class="ribbon facebook">
+    <span class="entypo-facebook"></span>
+  </button></a>
+ <a target="_blank" href="http://www.google.com"><button class="ribbon googleplus">
+    <span class="entypo-gplus"></span>
+  </button></a>
+  <a target="_blank" href="http://www.twitter.com"> <button class="ribbon twitter">
+    <span class="entypo-twitter"></span>
+  </button></a>
+</div>
+	</div>
+    <!-- CONTACT FORM -->
+    <div class="span7" id="contact-form">
+      <form action="contact/contactengine.php" method="post" id="form-horizontal" class="form-horizontal">
+        <fieldset>
+          <div class="control-group">
+            <label class="control-label" for="name">Nom <span style="color:red;">*</span></label>
+            <div class="controls">
+              <input class="input-xlarge" name="name" type="text" id="name" placeholder="Qui es-tu?">
+            </div>
+          </div>
+          <div class="control-group">
+            <label class="control-label" for="email">E-mail <span style="color:red;">*</span></label>
+            <div class="controls">
+              <input class="input-xlarge" name="email" type="text" id="email" placeholder="Example@Domain.com">
+            </div>
+          </div>
+          <div class="control-group">
+            <label class="control-label" for="subject">Objet <span style="color:red;">*</span></label>
+            <div class="controls">
+              <input class="input-xlarge" name="subject" type="text" id="subject" placeholder="Demande générale">
+            </div>
+          </div>
+          <div class="control-group">
+            <label class="control-label" for="message">Message <span style="color:red;">*</span></label>
+            <div class="controls">
+              <textarea style="max-height: 160px;" class="input-xlarge" rows="3"   name="message" id="message" placeholder="Votre message..."></textarea>
+            </div>
+          </div>
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary">ENVOYER</button>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+</div>
+  <!----------begin . References---------------->
+  <h2  style="text-align:center;color: #4A4C49;margin-top: 10px;margin-bottom: 5px; ">Réferences</h2>
+  <div id="ref" style="height:70px;overflow: hidden;display: flex;">
+   <img height="100%" src="images/ref1.jpg"/>
+   <img height="100%" src="images/ref2.jpg"/>
+   <img height="100%" src="images/ref3.jpg"/>
+   <img height="100%" src="images/ref4.jpg"/>
+   <img height="100%" src="images/ref5.jpg"/>
+   <img height="100%" src="images/ref6.jpg"/>
+   <img height="100%" src="images/ref7.jpg"/>
+  </div>
+  <!----------end . References------------------>
+  <!-- end .content --></div>
+      <div class="footer SearchBloc">
+<table class="footerTable" align="center" valign="middle">
+<tr >
+<td width="50%" align="left" class="footerlinks2">Extincteur Al khair</td>
+<td width="50%" align="right" class="footerlinks"><a href="Promotions.php">Promotions</a></td>
+</tr>
+<tr >
+<td align="left" class="footerlinks2">Route de Tétouan Mghogha Kbira</td>
+<td class="footerlinks" align="right"><a href="Nouveau-Produits.php">Nouveau Produits</a></td>
+</tr>
+<tr >
+<td align="left" class="footerlinks2">Av.Ben Aajiba Tanger</td>
+</tr>
+<tr >
+<td align="left" class="footerlinks2">Tél:0539954150-0661718022-0638597097</td>
+</tr>
+<tr >
+<td align="left" class="footerlinks2">Email: extincteurs.alkhair@gmail.com</td>
+<td width="50%" align="right" class="footerlinks"><a href="Admin.php">Admin-Login</a></td>
+</tr>
+</table></div>
+<!-- end .container --></div>
+</body>
+</html>
